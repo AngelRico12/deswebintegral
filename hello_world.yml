@@ -4,7 +4,7 @@ name: My_hello_world
 
 #Evento
 on:
-  workflow dispatch:
+  push:
 
 
 jobs:
