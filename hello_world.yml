@@ -1,0 +1,18 @@
+#Nombre
+
+name: My_hello_world
+
+#Evento
+on:
+  workflow dispatch:
+
+
+jobs:
+  Tarea1:
+    run-ons: ubuntu latest
+
+
+    steps:
+    - name: Digo hola
+      run: echo "hola a todos"
+      
